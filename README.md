@@ -10,6 +10,7 @@ Installation
 
 To run this app, clone this repo into your directory, navigate to the newly created directory, run 'bundle install', then run 'shotgun' to start your server.
 
-Contribution Bug reports and pull requests are welcome on GitHub at --github address
+Contribution Bug reports and pull requests are welcome on GitHub at https://github.com/Dillorom/sinatra-project
 
-License --github address/license--
+License
+https://github.com/Dillorom/sinatra-project
