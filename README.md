@@ -5,12 +5,14 @@ Dillorom's Cookbook is a recipes application. There is a user model and a recipe
 Usage
 
 After starting your local server with 'shotgun', you are able to create users, add recipes, edit/delete recipes via the browser.
+You can also view the application in Heroku: https://dilloromscookbook.herokuapp.com/
 
 Installation
 
 To run this app, clone this repo into your directory, navigate to the newly created directory, run 'bundle install', then run 'shotgun' to start your server.
 
-Contribution Bug reports and pull requests are welcome on GitHub at https://github.com/Dillorom/sinatra-project
+Contribution
+Bug reports and pull requests are welcome on GitHub at https://github.com/Dillorom/sinatra-project
 
 License
 https://github.com/Dillorom/sinatra-project
