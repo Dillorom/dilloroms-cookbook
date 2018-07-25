@@ -9,6 +9,7 @@ class ApplicationController < Sinatra::Base
     enable :sessions
     set :session_secret, ENV.fetch('SESSION_SECRET')
     use Rack::Flash, :sweep => true
+
   end
 
   get "/" do
