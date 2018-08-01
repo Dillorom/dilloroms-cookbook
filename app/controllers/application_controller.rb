@@ -24,5 +24,13 @@ class ApplicationController < Sinatra::Base
     def current_user
       @current_user ||= User.find_by(id: session[:user_id]) if session[:user_id]
     end
+
+    def redirect_if_not_my_recipe(recipe)
+      unless recipe.user == current_user
+        flash[:message] = "You cannot edit other user's recipe."
+        redirect '/recipes'
+      end
+
+    end
   end
 end
